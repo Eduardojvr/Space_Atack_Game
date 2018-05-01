@@ -8,4 +8,4 @@
 
 ## ℹ️ Sobre
 
-Jogo desenvolvido na linguagem python com uso do pygame. Consiste em um jogo de guerra espacial.
+Jogo desenvolvido na linguagem python com uso do pygame. Consiste em um jogo de guerra espacial em que o jogador conquista pontos a medida que destroi naves inimigas.
