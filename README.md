@@ -10,6 +10,14 @@
 
 Jogo desenvolvido na linguagem python com uso do pygame. Consiste em um jogo de guerra espacial em que o jogador conquista pontos a medida que destroi naves inimigas.
 
+## ℹ️ Instalando dependências
+Para instalar as dependências necessárias para usar a aplicação, navegue por meio do terminal até a pasta do projeto e digite:
+```Terminal
+	$ chmod +x dependencias.sh
+	$ ./dependencias.sh
+```
+Aguarde o fim da instalação e siga para a etapa apresentada abaixo.
+
 ## ℹ️ Rodando a aplicação
 
 Navegue até a pasta principal do projeto por meio do terminal e digite.
