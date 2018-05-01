@@ -9,3 +9,12 @@
 ## ℹ️ Sobre
 
 Jogo desenvolvido na linguagem python com uso do pygame. Consiste em um jogo de guerra espacial em que o jogador conquista pontos a medida que destroi naves inimigas.
+
+## ℹ️ Rodando a aplicação
+
+Navegue até a pasta principal do projeto por meio do terminal e digite.
+```Terminal
+	$ chmod +x run.sh
+	$ ./run.sh
+```
+Aguarde a abertura do jogo.
