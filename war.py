@@ -8,7 +8,7 @@ def run_game():
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                print(":)")
+                sys.exit()
     pygame.display.flip()
     run_game()
 
