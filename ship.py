@@ -11,6 +11,7 @@ class Ship():
         # inicia cada nova espaçonave na parte inferior central da tela
         self.rect.centerx = self.screen_rect.centerx 
         self.rect.bottom = self.screen_rect.bottom    
+        self.vida = 15
 
     # Desenha a espaçonave em sua posição atual
     def blitme(self):
