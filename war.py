@@ -28,6 +28,10 @@ def run_game():
                     nave.rect.bottom -=30
                 elif event.key == pygame.K_DOWN:
                     nave.rect.bottom +=30
+                elif event.key == pygame.K_SPACE:
+                    nave.moveMissile()
+
+
         for i in trap:
             i.rect.bottom += 30
             if (i.rect.colliderect(nave.rect)):
@@ -38,6 +42,8 @@ def run_game():
         screen.fill(tela1.bg_color)
         screen.blit(background.bg_image, (0,0))
         nave.blitme()
+        nave.blitmemissile()
+
         for i in trap:
             i.blitme()
 
